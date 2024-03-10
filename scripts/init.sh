@@ -7,7 +7,7 @@ err() {
     exit 1
 }
 
-command -v git </dev/null || err
+command -v git >/dev/null || err
 
 git clone https://github.com/kreatoo/kpkg-user /tmp/kpkg-user
 cd /tmp/kpkg-user
