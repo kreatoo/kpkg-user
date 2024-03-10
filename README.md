@@ -20,7 +20,10 @@ The installation script will check if dependencies are available before attempti
 The space required will change depending on if you want to build packages or not.
 
 # Installation
-Coming soon.
+You can install by running;
+
+`curl https://raw.githubusercontent.com/kreatoo/kpkg-user/main/scripts/init.sh -sSf | sh`
+
 
 # Why
 To allow more choice.

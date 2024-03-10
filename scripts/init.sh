@@ -2,6 +2,8 @@
 # kpkg-user online install script
 #
 
+set -e
+
 err() {
     echo "please install git to continue"
     exit 1
